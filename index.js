@@ -10,7 +10,7 @@ ScrollReveal().reveal('.stonehaven', {
     easing: 'ease-in',
     reset: true,
     viewFactor: 0.9,
-    opacity: 0.25,
+    opacity: 0.5,
   });
   ScrollReveal().reveal('.stirlingView', { 
     duration: 1000, 
@@ -24,7 +24,7 @@ ScrollReveal().reveal('.stonehaven', {
     easing: 'ease-in',
     reset: true,
     viewFactor: 0.5,
-    opacity: 0.25,
+    opacity: 0.75,
   });
   ScrollReveal().reveal('.wallaceMonument', { 
     duration: 500, 
@@ -57,7 +57,7 @@ ScrollReveal().reveal('.stonehaven', {
   });
   ScrollReveal().reveal('.highlands', { 
     duration: 500, 
-    easing: 'ease-in',
+    easing: 'steps(5)',
     reset: true,
     viewFactor: 0.9,
     opacity: 0.25,
@@ -69,6 +69,7 @@ ScrollReveal().reveal('.stonehaven', {
     viewFactor: 0.9,
     opacity: 0.25,
     distance: '50px',
+    origin: 'left',
   });
   ScrollReveal().reveal('.stAndrews', { 
     duration: 700, 
@@ -124,6 +125,7 @@ ScrollReveal().reveal('.stonehaven', {
     viewFactor: 0.9,
     opacity: 0.25,
     distance: '50px',
+    origin: 'right',
   });
 
   ScrollReveal().sync();
