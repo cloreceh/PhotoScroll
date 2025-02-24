@@ -72,51 +72,11 @@ ScrollReveal().reveal('.stonehaven', {
     origin: 'left',
   });
   ScrollReveal().reveal('.stAndrews', { 
-    duration: 700, 
+    duration: 7000, 
     easing: 'ease-in',
     reset: true,
     viewFactor: 0.9,
     opacity: 0.25,
-  });
-  ScrollReveal().reveal('.ceremonyFar', { 
-    duration: 500, 
-    easing: 'ease-in',
-    reset: true,
-    viewFactor: 0.9,
-    opacity: 0.5,
-    distance: '50px',
-  });
-  ScrollReveal().reveal('.ceremony', { 
-    duration: 500, 
-    easing: 'ease-in',
-    reset: true,
-    viewFactor: 0.9,
-    opacity: 0.5,
-    scale: 1.25,
-  });
-  ScrollReveal().reveal('.UnderTree', { 
-    duration: 500, 
-    easing: 'ease-in',
-    reset: true,
-    viewFactor: 0.9,
-    opacity: 0.5,
-    scale: 1.25,
-  });
-  ScrollReveal().reveal('.confetti', { 
-    duration: 500, 
-    easing: 'ease-in',
-    reset: true,
-    viewFactor: 0.9,
-    opacity: 0.5,
-    scale: 1.25,
-  });
-  ScrollReveal().reveal('.bouquet', { 
-    duration: 500, 
-    easing: 'ease-in',
-    viewFactor: 0.9,
-    opacity: 0.5,
-    distance: '50px',
-    reset: true,
   });
   ScrollReveal().reveal('.glasgow', { 
     duration: 500, 
